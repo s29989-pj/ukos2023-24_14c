@@ -1,0 +1,43 @@
+------------------------------------------------------------------------------
+30.09.2023
+
+Na zajęciach omawiany był terminal w linuxie (podstawowe komendy, pliki,
+ katalogi...) 
+
+------------------------
+Nauczyłem się:
+
+  -podstaw obsługi terminala
+
+  -używania VirtualBox, PuTTy
+
+  -by nie zapamiętywać każdej z komend, tylko skupić się na
+  tych podstawowych (resztę zawsze można wyszukać)
+
+  -by wszystko poddawać pod wątpliwość
+
+------------------------
+Co jest dla mnie nie jasne:
+
+  -dotychczas nie miałem do czynienia z linuxem, będę musiał się do 
+  niego przyłożyć
+
+------------------------
+Zaskoczyło mnie to:
+  
+  -że terminal ma tak duże znaczenie w pracy w dziale IT
+
+------------------------
+Moje przemyślenia:
+
+  -podoba mi się nagrywanie zajęć, można wrócić do nagrań, i przypomnieć
+  sobie wiele omawianych kwestii
+
+  -myślę, że "pamiętniczek" ma za zadanie zmuszenia mnie do głębszego 
+  przemyślania mojej wiedzy i działań
+
+  -zadania były zrozumiałe, ale to dopiero początek studiów
+
+------------------------------------------------------------------------------
+______________________________________________________________________________
+------------------------------------------------------------------------------

@@ -1,0 +1,82 @@
+Zadania
+
+-----------------------------------------------------------------------
+1)Korzystając z komend cd oraz mkdir stwórz następujące drzewo 
+katalogów w swoim katalogu domowym 
+(w dowolnym podkatalogu, albo bezpośrednio w ~):
+
+ukos
+
+ |\ katalog
+
+ |   |\ katalog2
+
+ |    \ katalog3
+
+  \ klamka
+
+
+-komendy:
+	mkdir ukos
+	cd ukos/
+	mkdir katalog klamka
+	cd katalog/
+	mkdir katalog2 katalog3
+
+-mkdir służy do tworzenia katalogów
+
+
+-----------------------------------------------------------------------
+2)W katalogu ukos/klamka stwórz 
+pliki zajęcia2.txt zajęcia2.log inny.txt nowy.txt
+
+-komendy:
+	cd ~/ukos/klamka/
+	touch zajęcia2.txt zajęcia2.log inny.txt nowy.txt
+
+-touch tworzy pliki, jeśli ich nie znajduje
+
+-----------------------------------------------------------------------
+3)Za pomocą jednego polecenia mkdir stwórz w katalogu ukos następujący 
+katalog: ukos/to/jest/dluga/nazwa
+
+-komendy:
+	mkdir -p ~/ukos/to/jest/dluga/nazwa
+
+-na początku próbowałem bez parametru -p, ale nie pozwalało mi to utworzyć
+subfolderów, odpowiedź znalazłem w internecie
+
+
+-----------------------------------------------------------------------
+4)następnie umieść w katalogu ukos/to/jest/dluga/nazwa plik dane.txt
+
+-komendy:
+	touch ~/ukos/to/jest/dluga/nazwa/dane.txt
+
+-----------------------------------------------------------------------
+5)Usuń z katalogu ukos/klamka wszystkie pliki z rozszerzeniem txt
+
+-komendy:
+	cd ~/ukos/klamka/
+	rm *.txt
+
+-rm usuwa pliki, parametr *.txt precyzuje jakiego typu
+
+-----------------------------------------------------------------------
+6)Usuń katalog ukos/katalog/katalog2
+
+-komendy:
+	rmdir ~/ukos/katalog/katalog2
+
+-----------------------------------------------------------------------
+7)Usuń cały katalog klamka za pomocą jednego polecenia
+
+-komendy:
+	rm -rf ~/ukos/klamka/
+
+-próbowałem komendą rmdir, wyjaśnienie znalazłem w internecie:
+
+"As explained earlier rmdir only delete the DIRECTORIES, if they are empty.
+Therefore you must use the rm command to remove a full directory in Linux:
+
+rm -rf /tmp/data/"

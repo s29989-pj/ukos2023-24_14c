@@ -1,0 +1,150 @@
+Zadania
+Kolejne polecenia zależą od poprzednich i należy 
+wykonywać je na linuxie
+
+WYKONAŁEM ZADANIA NA WIRTUALNEJ MASZYNIE W VIRTUALBOX
+
+-----------------------------------------------------------------------
+1)Uruchom terminal.
+
+- prawy przycisk myszy -> Terminal
+- menu -> system -> Terminal
+- ctrl+alt+t
+
+- nauczyłem się, że jest wiele sposobów, by otworzyć terminal w linuxie
+
+-----------------------------------------------------------------------	
+2)Wyświetl zawartość aktualnego katalogu.
+
+ls
+
+-komenda wyświetla zawartość katalogu
+
+-----------------------------------------------------------------------
+3)Sprawdź gdzie aktualnie się znajdujesz.
+
+pwd
+
+-komenda wyświetla ścieżkę aktualnego katalogu
+
+-----------------------------------------------------------------------
+4)Przejdź do katalogu Pulpit za pomocą ścieżki względnej
+
+cd Desktop/
+
+- komendą cd zmieniam aktualny katalog 
+
+-----------------------------------------------------------------------
+5)Sprawdź gdzie jesteś.
+
+pwd
+
+-----------------------------------------------------------------------
+6)Wyświetl zawartość bieżącego katalogu.
+
+ls
+
+-----------------------------------------------------------------------
+7)Wyświetl zawartość swojego katalogu domowego bez przechodzenia 
+do niego (ls z odpowiednim parametrem).
+
+ls ~
+
+- używając komendy ls mogłem wyświetlić zawartości innych katalogów 
+  bez przechodzenia do nich (np ls ~/Music) 
+
+-----------------------------------------------------------------------
+8)Przejdź do katalogu Obrazy (lub innego katalogu, który jest 
+dostępny - podaj wprost, że zmieniasz katalog 
+na inny bo np. Obrazy nie są u Ciebie dostępne) w twoim 
+katalogu domowym za pomocą ścieżki względnej.
+
+cd ../Pictures/
+
+- zmieniam katalog na jeden poniżej i przechodzę do Pictures
+
+-----------------------------------------------------------------------
+9)Sprawdź gdzie jesteś.
+
+pwd
+
+-----------------------------------------------------------------------
+10)Zobacz do jakiego katalogu przejdziesz za pomocą ścieżki ././././././
+W opisie rozwiązania proszę umieścić również to jak rozumiesz 
+co się właściwie stało.
+Dlaczego znalazła/eś się w tym miejscu do którego przeniosła 
+Cię ta ścieżka?
+Czy dodanie kilku ./././././ na początku/środku/końcu powoduje, że 
+ścieżka się zmieni?
+Co ta ścieżka oznacza/sobą reprezentuje?
+
+cd ./././././././
+
+- nie przenosi mnie do innego katalogu
+
+- jeśli dobrze to rozumiem, to ./ odnosi się do aktualnego katalogu i bez
+  podawania nazwy podkatalogów nie przejdzie do innej lokalizacji
+  (zadziałało cd ././././././Pictures/ i przeniosło mnie do Pictures)
+
+
+-----------------------------------------------------------------------
+11)Przejdź do swojego katalogu domowego za pomocą ścieżki bezwzględnej.
+
+cd /home/dominik/
+
+- przeniosło mnie do katalogu domowego
+
+-----------------------------------------------------------------------
+12)Zobacz co się stanie jak wpiszesz komendę 'cd /root'. Jak już to 
+zrobisz, zastanów się co się stało. Poszukaj w Internecie.
+
+cd /root/
+
+- wyświetliło komunikat:
+"bash: cd: /root: Permission denied"
+
+- nie mam uprawnień do wglądu w katalog root
+
+- pomogła komenda su - root
+"You are running in superuser mode, be very careful."
+
+- komenda exit nie wyłączyła terminala, tylko zamknęła katalog root
+
+------------------------------------------------------------------------
+Zadanie 13 i 14 trzeba wykonać na maszynie wirtualnej lub na fizycznym 
+komputerze. Nie można go zrobić zdalnie na szuflandii.
+
+13)Zobacz, co się stanie, jeśli wciśniesz kombinację klawiszy: Ctrl+Alt+F3
+Sprawdź w Internecie co się dzieje kiedy używa się takiej kombinacji.
+W Internecie mogą pojawić się wersje z F1-F6. To de facto to samo.
+Odpowiedź "wylogowało mnie" jest błędna. Nie. Nie wylogowało. Szukaj dalej.
+
+ctrl+alt+f3
+
+- jeśli dobrze to zrozumiałem, przełącza mnie do terminala bez GUI
+
+- działają kombinacje z f2, f3, f4, f5, f6, i mogłem zalogować się do każdego,
+komenda "who" pokazała:
+dominik tty7
+dominik tty3
+
+- wylogowałem się komendą "exit"
+
+- wróciłem do interfejsu graficznego dzięki ctrl+alt+f7
+
+- w internecie wyszukałem, że skrót tty wziął się od TeleTypewriter i 
+  w linuxie jest to "pseudo-terminal", za pomocą którego łączymy się z 
+  systemem operacyjnym
+
+
+-----------------------------------------------------------------------
+14)A teraz co się stanie po: Alt+F1 lub ALT+F2 lub ALT+F7 
+(na starszych linuxach)
+
+alt+f2
+- w Debianie i Ubuntu  wyświetliło mi się okno "Run a Command"
+- w Linux Lite okno "Application Finder"
+
+- nie wiem, czy konkretnie o to chodziło w tym zadaniu,
+  ale nie znalazłem w internecie innych konkretnych odpowiedzi
+
